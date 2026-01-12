@@ -5,12 +5,10 @@ public class Functions {
 	
 	public static int func1(int x, int y, int z) {
 	    int res = 0;
-
 	    if ((x != 0) & ((y == 0) )) {
 	        res = z / 10;
 	    }
 		res= res/x; 
-
 	    return res;
 	}
 	
@@ -32,23 +30,22 @@ public class Functions {
 	
 	public static String func3(int x) {
 	    int result = 10;
-
 	    if (x > 0) {
-	        result = result / x;
-	    }
+	        result = result / x;  }
 	    result = result / 0;
-
 	    return String.format("result=%d", result);
 	}
+	
+	
+	
 	
 	public static int weakMethod (int a , int b) {
 		if (a!=0 || b!=0) {
 			a++;
 			b++;
-		}
+			}
 		int res=a/b;
-		return res ;
-		
+		return res ;	
 	}
 
 }

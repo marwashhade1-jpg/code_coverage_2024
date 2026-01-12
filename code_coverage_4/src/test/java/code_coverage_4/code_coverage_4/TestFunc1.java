@@ -19,7 +19,7 @@ public class TestFunc1 {
 	public void test2() {
 		
 		 assertThrows(ArithmeticException.class, () -> {
-			 f.func1(0,1,10);
+			 f.func1(0,2,5);
 			 });
 
 	 }
